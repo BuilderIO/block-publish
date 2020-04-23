@@ -1,5 +1,5 @@
 {
-  "name": "ca-test-publish",
+  "name": "block-publish",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "release:dev": "ALLOW_PUBLISH=true npm publish"
   },
-  "author": "",
+  "author": "ca136",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^13.13.2",
