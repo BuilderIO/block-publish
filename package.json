@@ -4,9 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepublish": "./confirm-publish.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:dev": "ALLOW_PUBLISH=true npm publish"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  }
 }
